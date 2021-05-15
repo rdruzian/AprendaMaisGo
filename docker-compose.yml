@@ -1,0 +1,24 @@
+version: "3"
+
+services:
+  db:
+    image: mysql:8.0
+    environment:
+      MYSQL_ROOT_PASSWORD: 'root'
+      MYSQL_DATABASE: "AprendaMais"
+    volumes:
+      - bdmysql:/var/lib/mysql
+    ports:
+      - 9000:3306
+
+  adminer:
+    image: adminer
+    depends_on:
+      - db
+    ports:
+      - 8282:8080
+
+volumes:
+  bdmysql:
+    external: true
+# docker-compose up -d --build
