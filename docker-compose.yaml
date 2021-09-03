@@ -1,33 +1,45 @@
-version: '2'
+version: '3.1'
 
 services:
   mysql:
-    image: mysql:8.0
+    build:
+      context: ./sql
+      dockerfile: ./Dockerfile
+      target: aprendaDb
     environment:
       MYSQL_ROOT_PASSWORD: "123456"
       MYSQL_DATABASE: "AprendaMais"
-    volumes:
-      - ./sql:/var/lib/mysql
-    networks:
-      - rede-qa
-  go:
-    image: golang
-    networks:
-      - rede-qa
-    depends_on:
-      - "mysql"
-    volumes:
-      - ./src:/usr/local/go/src
-
-  adminer:
-    image: adminer
+    restart: always
     ports:
-      - 8080:8080
+      - "3306:3306"
     networks:
-      - rede-qa
+      - dev
+  app:
+    build:
+      context: ./src
+      dockerfile: ./Dockerfile
+      target: aprendaApp
+    export:
+      - "5000:5000"
+    networks:
+      - dev
     depends_on:
-      - "mysql"
+      - mysql
+    volumes:
+      - aprendamais:/go/src/aprendamais
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: ./Dockerfile
+      target: aprendaFront
+    export:
+      - "3000:3000"
+    networks:
+      - dev
+    depends_on:
+      - mysql
+      - app
 
 networks:
-  rede-qa:
-    driver: bridge
+  dev:
