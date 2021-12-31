@@ -1,0 +1,5 @@
+package Areas
+
+func main(){
+
+}
