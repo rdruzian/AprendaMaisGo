@@ -1,5 +1,0 @@
-package Areas
-
-func main(){
-
-}

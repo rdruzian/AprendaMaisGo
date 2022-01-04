@@ -1,11 +1,11 @@
 package types
 
 type Alternativa struct {
-	AlternativaTexto bool
+	AlternativaTexto  bool
 	AlternativaImagem bool
-	Texto AlternativaTexto
-	Figura AlternativaImagem
-	Correta string `db:resp_correta`
+	Texto             AlternativaTexto
+	Figura            AlternativaImagem
+	Correta           string `db:resp_correta`
 }
 
 type AlternativaImagem struct {

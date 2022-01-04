@@ -5,11 +5,76 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f32272c0-e4c1-43a9-ae71-b531c5186d28" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Areas/areas.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Areas/disciplinas.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/User/user.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/AprendaMaisGo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/AprendaMaisGo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aluno/aluno.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Discplinas/disciplinas.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Professor/professor.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/database.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/migrations.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/jinzhu/inflection/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/jinzhu/inflection/inflections.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/jinzhu/inflection/wercker.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/jinzhu/now/Guardfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/jinzhu/now/License" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/jinzhu/now/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/jinzhu/now/now.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/jinzhu/now/time.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gorm.io/gorm/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gorm.io/gorm/License" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gorm.io/gorm/association.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gorm.io/gorm/callbacks.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gorm.io/gorm/chainable_api.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gorm.io/gorm/clause/clause.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gorm.io/gorm/clause/delete.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gorm.io/gorm/clause/expression.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gorm.io/gorm/clause/from.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gorm.io/gorm/clause/group_by.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gorm.io/gorm/clause/insert.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gorm.io/gorm/clause/joins.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gorm.io/gorm/clause/limit.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gorm.io/gorm/clause/locking.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gorm.io/gorm/clause/on_conflict.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gorm.io/gorm/clause/order_by.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gorm.io/gorm/clause/returning.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gorm.io/gorm/clause/select.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gorm.io/gorm/clause/set.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gorm.io/gorm/clause/update.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gorm.io/gorm/clause/values.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gorm.io/gorm/clause/where.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gorm.io/gorm/clause/with.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gorm.io/gorm/errors.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gorm.io/gorm/finisher_api.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gorm.io/gorm/gorm.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gorm.io/gorm/interfaces.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gorm.io/gorm/logger/logger.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gorm.io/gorm/logger/sql.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gorm.io/gorm/migrator.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gorm.io/gorm/model.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gorm.io/gorm/prepare_stmt.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gorm.io/gorm/scan.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gorm.io/gorm/schema/check.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gorm.io/gorm/schema/field.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gorm.io/gorm/schema/index.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gorm.io/gorm/schema/interfaces.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gorm.io/gorm/schema/naming.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gorm.io/gorm/schema/relationship.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gorm.io/gorm/schema/schema.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gorm.io/gorm/schema/utils.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gorm.io/gorm/soft_delete.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gorm.io/gorm/statement.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gorm.io/gorm/utils/utils.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Areas/areas.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Areas/disciplinas.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/User/user.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/alternativa/types/types.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/alternativa/types/types.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aluno/aluno.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dbConn/dBConn.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prova/prova.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/Prova/prova.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/modules.txt" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/modules.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +101,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -44,7 +110,8 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.modules.go.list.on.any.changes.was.set" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="go.vendoring.notification.had.been.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pizzaOrder" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -52,6 +119,9 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/Professor" />
+      <recent name="$PROJECT_DIR$/src/Aluno" />
       <recent name="D:\AprendaMaisGo\testes" />
     </key>
   </component>
@@ -113,5 +183,8 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
