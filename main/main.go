@@ -1,7 +1,8 @@
-package AprendaMaisGo
+package main
 
 import (
-	"AprendaMaisGo/src/database"
+	"../database"
+	"../server"
 	"fmt"
 )
 
