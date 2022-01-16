@@ -15,6 +15,8 @@ type Usuario struct {
 	AreaInteresse int                 `json:"area-interesse"`
 	Aluno         Aluno.Aluno         `json:"aluno" gorm:"foreignKey:ID" gorm:"embedded"`
 	Professor     Professor.Professor `json:"professor" gorm:"foreignKey:ID" gorm:"embedded"`
+	Login         string              `json:"login"`
+	Senha         string              `json:"senha"`
 
 	CreateAt  time.Time      `json:"created"`
 	UpdateAt  time.Time      `json:"updated"`
