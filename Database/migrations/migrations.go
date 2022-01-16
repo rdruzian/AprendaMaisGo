@@ -1,10 +1,10 @@
 package migrations
 
 import (
-	"../../Aluno"
-	"../../Discplinas"
-	"../../Professor"
-	"../../User"
+	"aprendamais/Aluno"
+	"aprendamais/Discplinas"
+	"aprendamais/Professor"
+	"aprendamais/User"
 	"gorm.io/gorm"
 	"log"
 )

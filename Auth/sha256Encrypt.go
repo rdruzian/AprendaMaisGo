@@ -10,4 +10,3 @@ func SHA256Encoder(s string) string {
 
 	return fmt.Sprintf("%x", str)
 }
-

@@ -1,7 +1,7 @@
 package Professor
 
 import (
-	"../Discplinas"
+	"aprendamais/Discplinas"
 	"gorm.io/gorm"
 	"time"
 )

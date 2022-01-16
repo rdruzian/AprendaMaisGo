@@ -1,14 +1,14 @@
 package apiUser
 
 import (
-	"../../User"
-	"../../database"
+	"aprendamais/Database"
+	"aprendamais/User"
 	"fmt"
 	"github.com/gin-gonic/gin"
 )
 
 func Cadastro(c *gin.Context) {
-	db := database.GetDatabase()
+	db := Database.GetDatabase()
 
 	var user User.Usuario
 
@@ -31,4 +31,3 @@ func Cadastro(c *gin.Context) {
 		"menssagem": "Usuário cadastro com sucesso!",
 	})
 }
-

@@ -1,11 +1,11 @@
 package Autentication
 
 import (
-	auth "../../Auth"
+	auth "aprendamais/Auth"
 	"github.com/gin-gonic/gin"
 )
 
-func Autentication() gin.HandlerFunc{
+func Autentication() gin.HandlerFunc {
 	return func(c *gin.Context) {
 		const Bearer_schema = "Bearer "
 		header := c.GetHeader("Autorization")

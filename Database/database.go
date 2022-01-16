@@ -1,8 +1,8 @@
-package database
+package Database
 
 import (
-	"./migrations"
-	"gorm.io/driver/mysql"
+	"aprendamais/Database/migrations"
+	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 	"log"
 	"time"
@@ -13,7 +13,7 @@ var db *gorm.DB
 func StartDB() {
 	str := "host=localhost port=25432 user=admin dbname=aprendamais sslmode=disable password=123456"
 
-	database, err := gorm.Open(mysql.Open(str), &gorm.Config{})
+	database, err := gorm.Open(postgres.Open(str), &gorm.Config{})
 	if err != nil {
 		log.Fatal("error: ", err)
 	}

@@ -1,14 +1,14 @@
 package main
 
 import (
-	"../database"
-	"../server"
+	"aprendamais/Database"
+	"aprendamais/server"
 	"fmt"
 )
 
 func main() {
 	// Inicia o banco de dados
-	database.StartDB()
+	Database.StartDB()
 	// Cria uma estância do server
 	server := server.NewServer()
 	// Inicia o server

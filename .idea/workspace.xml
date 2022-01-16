@@ -6,6 +6,60 @@
   <component name="ChangeListManager">
     <list default="true" id="f32272c0-e4c1-43a9-ae71-b531c5186d28" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aluno/aluno.go" beforeDir="false" afterPath="$PROJECT_DIR$/Aluno/aluno.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auth/Autentication/autentication.go" beforeDir="false" afterPath="$PROJECT_DIR$/Auth/Autentication/autentication.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auth/auth.go" beforeDir="false" afterPath="$PROJECT_DIR$/Auth/auth.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auth/sha256Encrypt.go" beforeDir="false" afterPath="$PROJECT_DIR$/Auth/sha256Encrypt.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Professor/professor.go" beforeDir="false" afterPath="$PROJECT_DIR$/Professor/professor.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/User/api/apiUser.go" beforeDir="false" afterPath="$PROJECT_DIR$/User/api/apiUser.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/User/user.go" beforeDir="false" afterPath="$PROJECT_DIR$/User/user.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/database.go" beforeDir="false" afterPath="$PROJECT_DIR$/Database/database.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/migrations.go" beforeDir="false" afterPath="$PROJECT_DIR$/Database/migrations/migrations.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/router/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/router/router.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/server.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Prova/prova.go" beforeDir="false" afterPath="$PROJECT_DIR$/Prova/prova.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/alternativa/alternativa.go" beforeDir="false" afterPath="$PROJECT_DIR$/Alternativa/alternativa.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/alternativa/types/types.go" beforeDir="false" afterPath="$PROJECT_DIR$/Alternativa/types/types.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/AUTHORS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/auth.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/buffer.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/collations.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/conncheck.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/conncheck_dummy.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/connection.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/connector.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/const.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/driver.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/dsn.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/errors.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/fields.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/fuzz.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/infile.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/nulltime.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/nulltime_go113.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/nulltime_legacy.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/packets.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/result.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/rows.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/statement.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/transaction.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/utils.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/gorm.io/gorm/clause/where.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/gorm.io/gorm/clause/where.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/gorm.io/gorm/clause/with.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/gorm.io/gorm/clause/with.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/gorm.io/gorm/finisher_api.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/gorm.io/gorm/finisher_api.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/gorm.io/gorm/logger/sql.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/gorm.io/gorm/logger/sql.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/gorm.io/gorm/schema/check.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/gorm.io/gorm/schema/check.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/gorm.io/gorm/schema/field.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/gorm.io/gorm/schema/field.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/gorm.io/gorm/schema/index.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/gorm.io/gorm/schema/index.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/gorm.io/gorm/soft_delete.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/gorm.io/gorm/soft_delete.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/gorm.io/gorm/statement.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/gorm.io/gorm/statement.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/modules.txt" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/modules.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +88,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_MARK_IGNORED_FILES_AS_EXCLUDED" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql&#10;postgresql" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -52,11 +107,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/main" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/aprendamais" />
+      <recent name="$PROJECT_DIR$/main" />
       <recent name="$PROJECT_DIR$/src/Professor" />
       <recent name="$PROJECT_DIR$/src/Aluno" />
-      <recent name="D:\AprendaMaisGo\testes" />
     </key>
   </component>
   <component name="RunManager">

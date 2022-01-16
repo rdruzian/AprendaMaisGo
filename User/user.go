@@ -1,8 +1,8 @@
 package User
 
 import (
-	"../Aluno"
-	"../Professor"
+	"aprendamais/Aluno"
+	"aprendamais/Professor"
 	"gorm.io/gorm"
 	"time"
 )

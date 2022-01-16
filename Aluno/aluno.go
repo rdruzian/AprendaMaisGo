@@ -1,7 +1,7 @@
 package Aluno
 
 import (
-	"gorm.io/gorm"
+	. "gorm.io/gorm"
 	"time"
 )
 
@@ -10,6 +10,6 @@ type Aluno struct {
 	EM int
 
 	CreateAt  time.Time      `json:"created"`
-	UpdateAt  time.Time      `json:"updated"`
-	DeletedAt gorm.DeletedAt `gorm:"index" json:"deleted"`
+	UpdateAt  time.Time `json:"updated"`
+	DeletedAt DeletedAt `gorm:"index" json:"deleted"`
 }

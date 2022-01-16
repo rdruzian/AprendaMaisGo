@@ -8,7 +8,7 @@ import (
 
 type jwtService struct {
 	secretKey string
-	issuer string
+	issuer    string
 }
 
 func NewJWTService() *jwtService {
@@ -27,9 +27,9 @@ func (s *jwtService) GeraToken(id uint) (string, error) {
 	claim := &Claim{
 		id,
 		jwt.StandardClaims{
-			ExpiresAt: time.Now().Add(time.Hour*2).Unix(),
-			Issuer: s.issuer,
-			IssuedAt: time.Now().Unix(),
+			ExpiresAt: time.Now().Add(time.Hour * 2).Unix(),
+			Issuer:    s.issuer,
+			IssuedAt:  time.Now().Unix(),
 		},
 	}
 
@@ -44,7 +44,7 @@ func (s *jwtService) GeraToken(id uint) (string, error) {
 
 func (s *jwtService) ValidaToken(token string) bool {
 	_, err := jwt.Parse(token, func(token *jwt.Token) (interface{}, error) {
-		if _, isValid := token.Method.(*jwt.SigningMethodHMAC); !isValid{
+		if _, isValid := token.Method.(*jwt.SigningMethodHMAC); !isValid {
 			return nil, fmt.Errorf("token inválido: %v", token)
 		}
 		return []byte(s.secretKey), nil

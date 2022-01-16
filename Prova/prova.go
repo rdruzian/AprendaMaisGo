@@ -1,7 +1,7 @@
 package Prova
 
 import (
-	"../alternativa/types"
+	"aprendamais/Alternativa/types"
 	"time"
 )
 
