@@ -1,4 +1,4 @@
-package Migrations
+package migrations
 
 import (
 	"../../Aluno"

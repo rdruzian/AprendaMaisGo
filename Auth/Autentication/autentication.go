@@ -1,7 +1,7 @@
 package Autentication
 
 import (
-	auth "aprendamais/Auth"
+	auth "../Auth"
 	"github.com/gin-gonic/gin"
 )
 
