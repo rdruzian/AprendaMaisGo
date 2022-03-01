@@ -1,7 +1,7 @@
 package Database
 
 import (
-	"./migrations"
+	"aprendamais/Database/migrations"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 	"log"
